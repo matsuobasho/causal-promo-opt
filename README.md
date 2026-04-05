@@ -1,5 +1,5 @@
 # causal-promo-opt
-Causal modeling to optimize promotion strategies (discounts, tech support) for revenue growth using Double Machine Learning and Propensity Score Matching.
+Causal modeling to optimize promotion strategies (discounts, tech support) for revenue growth using Double Machine Learning and CausalForests.
 
 1. Build DAGs, identifying confounders and treatments.
 2. Applied refutation tests to 3 Linear Double-Machine Learning models, to check robustness
