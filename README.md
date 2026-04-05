@@ -12,6 +12,28 @@ Identify the optimal promotion strategy for each customer by estimating heteroge
 
 ---
 
+## Project Structure
+
+The analysis is organized into three notebooks:
+
+- **Notebook 1 – Causal Design & Exploration**
+  - Construct Directed Acyclic Graphs (DAGs) to define relationships between treatments, outcomes, and confounders
+  - Run refutation checks on model
+
+- **Notebook 2 – Refutation & Validation**
+  - Apply Double Machine Learning (DML) to estimate treatment effects for:
+    - Discount
+    - Tech support
+    - Combined treatment
+  - Run refutation tests to validate robustness of causal assumptions
+
+- **Notebook 3 – Modeling & Policy Optimization**
+  - Train Causal Forest models to estimate heterogeneous treatment effects (CATE)
+  - Implement a functionalized pipeline for inference and policy decisioning
+  - Simulate treatment strategies and evaluate business impact
+
+---
+
 ## Methodology
 
 ### 1. Causal Graph & Identification
